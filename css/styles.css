@@ -5,6 +5,7 @@
     --primary-white-color: #FFFFFF;
     --light-gray-color: #F5F4FA;
     --dark-gray-color:  #2F303A;
+    --white-color-60transp: #FFFFFF99; 
 }
 
 body {
@@ -166,7 +167,7 @@ body {
 }
 .address .link {
     font-style: normal;
-    color:rgba(255, 255, 255, 0.6);
+    color: var(--white-color-60transp);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
