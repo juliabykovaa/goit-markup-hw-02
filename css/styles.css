@@ -2,6 +2,7 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
+    --accent-color-active: #188CE8;
     --primary-white-color: #FFFFFF;
     --light-gray-color: #F5F4FA;
     --dark-gray-color:  #2F303A;
@@ -39,6 +40,8 @@ body {
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -92,6 +95,11 @@ body {
     letter-spacing: 0.06em; 
     cursor: pointer;
 }   
+
+.hero-button:hover,
+.hero-button:active {
+    background-color: var(--accent-color-active);
+}
 
 .feature-title {
     font-weight: 700;
