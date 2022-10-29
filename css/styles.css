@@ -106,12 +106,6 @@ body {
     line-height: 1.71;
 }
 
-.section .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.6666;
-    text-align: center;
-}
 
 .team .name {
     font-weight: 500;
@@ -119,8 +113,13 @@ body {
     line-height: 1.9;
     text-align: center;
 }
-
-.team-section {
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+}
+.team {
     background-color: var(--light-gray-color);
 }
 
@@ -154,7 +153,7 @@ body {
     color: var(--secondary-text-color)
 }
 
-.projects .section-title {
+.projects .title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -167,7 +166,7 @@ body {
 }
 .address .link {
     font-style: normal;
-    color: var(--white-color-60transp);
+    color:var(--white-color-60transp);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
